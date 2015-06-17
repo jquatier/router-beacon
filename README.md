@@ -12,3 +12,8 @@ There are a few numbers here, but the 2 main ones needed are the 1st and the 9th
 *NOTE: The interface name ('vlan1') may need to change to the interface name for your WAN interface, depending on your configuration.*
 
 ![](img/beacon.jpg)
+
+### Wiring
+NeoPixel strip is configured on pin #6 and 5v + ground must be connected accordingly.
+
+![](img/wiring.jpg)
