@@ -2,7 +2,7 @@
 Arduino Ethernet project to visibly show traffic levels on a DD-WRT based router using NeoPixels. Uses a strip of 16 NeoPixels to visually display how much traffic is being downloaded or uploaded through the WAN connection of the router. Pixel colors cycle for visual effect.
 
 ### How this works
-This project requires requires a router running DD-WRT firmware for the Arduino to access for statistics. DD-WRT has a built in service that can be hit to fetch the current number of bytes transmitted and recieved. This service is located at: **http://_IP_ADDRESS_/fetchif.cgi?vlan1**. The output is the same as the output of /proc/net/dev on *nix operating systems. Here's an example output from calling the URL above:
+This project requires requires a router running DD-WRT firmware for the Arduino to access for statistics. DD-WRT has a built in service that can be hit to fetch the current number of bytes transmitted and recieved. This service is located at: **http://IP_ADDRESS/fetchif.cgi?vlan1**. The output is the same as the output of /proc/net/dev on *nix operating systems. Here's an example output from calling the URL above:
 ```bash
 Fri Jun 12 08:44:44 UTC 2015 vlan1:3545267273 45544710 0 0 0 0 0 1808728 655387916 36539186 0 0 0 0 0 0
 ```
